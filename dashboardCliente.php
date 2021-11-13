@@ -55,10 +55,9 @@ https://templatemo.com/tm-569-edu-meeting
         <div class="col-lg-4 col-sm-4">
           <div class="right-icons">
             <ul>
-              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-              <li><a href="#"><i class="fa fa-behance"></i></a></li>
-              <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+              <li><a href="https://web.facebook.com/alfonsomarinahome/?ref=aymt_homepage_panel"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="https://twitter.com/alfonsomarinamx"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="https://www.instagram.com/alfonsomarinamexico/"><i class="fa fa-instagram"></i></a></li>
             </ul>
           </div>
         </div>
@@ -80,16 +79,16 @@ https://templatemo.com/tm-569-edu-meeting
                       <!-- ***** Menu Start ***** -->
                       <ul class="nav">
                           <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
-                          <li><a href="meetings.html">Historial</a></li>
+                          <li><a href="#meetings">Departamentos</a></li>
                           
-                          <li class="has-sub">
+                          <!--<li class="has-sub">
                               <a href="javascript:void(0)">Tradiciones</a>
                               <ul class="sub-menu">
                                   <li><a href="meetings.html">Prehispánicas</a></li>
                                   <li><a href="meeting-details.html">Modernas</a></li>
-                              </ul>
+                              </ul>-->
                           </li>
-                          <li class="scroll-to-section"><a href="#courses"></a></li> 
+
                           <li class="scroll-to-section"><a href="#contact">Contacto</a></li> 
                           <li><a href="logout.php">Salir</a></li> 
                       </ul>        
@@ -191,7 +190,7 @@ https://templatemo.com/tm-569-edu-meeting
               <li><a href="departamentoTI.html">TI.</a></li><br>
             </ul>
             <div class="main-button-red">
-              <a href="meetings.html">más sobre Alfonso Marina</a>
+              <a href="https://www.alfonsomarina.com/" rel="nofollow noopener" target="_blank">más sobre Alfonso Marina</a>
             </div>
           </div>
         </div>
@@ -223,19 +222,19 @@ https://templatemo.com/tm-569-edu-meeting
           <div class="row">
             <div class="col-lg-12">
               <div class="item">
-                <h3>APPLY FOR BACHELOR DEGREE</h3>
-                <p>You are allowed to use this edu meeting CSS template for your school or university or business. You can feel free to modify or edit this layout.</p>
+                <h3>Prensa</h3>
+                <p>interesa  conocer mas sobre artículos de presan relacionados con Alfonso Marina. Puedes encontrar artículos de tu  interés aquí.</p>
                 <div class="main-button-red">
-                  <div class="scroll-to-section"><a href="#contact">Join Us Now!</a></div>
+                  <div><a href="https://www.alfonsomarina.com/es/prensa/publicidad" rel="nofollow noopener" target="_blank">Prensa!</a></div>
               </div>
               </div>
             </div>
             <div class="col-lg-12">
               <div class="item">
-                <h3>APPLY FOR BACHELOR DEGREE</h3>
-                <p>You are not allowed to redistribute the template ZIP file on any other template website. Please contact us for more information.</p>
+                <h3>Galeria.</h3>
+                <p>Estas interesado en ver todos los diseños que tenemos en nuestra galería de fotos...</p>
                 <div class="main-button-yellow">
-                  <div class="scroll-to-section"><a href="#contact">Join Us Now!</a></div>
+                  <div ><a href="https://www.alfonsomarina.com/es/galeria" rel="nofollow noopener" target="_blank">Galeria!</a></div>
               </div>
               </div>
             </div>
@@ -245,56 +244,56 @@ https://templatemo.com/tm-569-edu-meeting
           <div class="accordions is-first-expanded">
             <article class="accordion">
                 <div class="accordion-head">
-                    <span>About Edu Meeting HTML Template</span>
+                    <span>QUIÉNES SOMOS</span>
                     <span class="icon">
                         <i class="icon fa fa-chevron-right"></i>
                     </span>
                 </div>
                 <div class="accordion-body">
                     <div class="content">
-                        <p>If you want to get the latest collection of HTML CSS templates for your websites, you may visit <a rel="nofollow" href="https://www.toocss.com/" target="_blank">Too CSS website</a>. If you need a working contact form script, please visit <a href="https://templatemo.com/contact" target="_parent">our contact page</a> for more info.</p>
+                        <p>Alfonso Marina inicia su actividad como ebanista en 1971 teniendo como meta ofrecer un producto de la más alta calidad. </p><br>
+                        <p>Seleccionar y diseñar productos es una actividad muy personal; en este proceso, el contexto cultural, la experiencia profesional y un gusto particular influyen en la elección de un proyecto definido. Ser consistente con este proceso da una personalidad y un carácter que conecta a todas las piezas de la colección. </p>
                     </div>
                 </div>
             </article>
             <article class="accordion">
                 <div class="accordion-head">
-                    <span>HTML CSS Bootstrap Layout</span>
+                    <span>El objetivo de Alfonso Marina</span>
                     <span class="icon">
                         <i class="icon fa fa-chevron-right"></i>
                     </span>
                 </div>
                 <div class="accordion-body">
                     <div class="content">
-                        <p>Etiam posuere metus orci, vel consectetur elit imperdiet eu. Cras ipsum magna, maximus at semper sit amet, eleifend eget neque. Nunc facilisis quam purus, sed vulputate augue interdum vitae. Aliquam a elit massa.<br><br>
-                        Nulla malesuada elit lacus, ac ultricies massa varius sed. Etiam eu metus eget nibh consequat aliquet. Proin fringilla, quam at euismod porttitor, odio odio tempus ligula, ut feugiat ex erat nec mauris. Donec viverra velit eget lectus sollicitudin tincidunt.</p>
+                        <p>es ofrecer piezas superiores con una elegancia casual, aquellas que muestran armonía en el diseño y la proporción, sin limitarse a cierto periodo histórico o procedencia.
+                        </p>
                     </div>
                 </div>
             </article>
             <article class="accordion">
                 <div class="accordion-head">
-                    <span>Please tell your friends</span>
+                    <span>¿Qué Hacemos?</span>
                     <span class="icon">
                         <i class="icon fa fa-chevron-right"></i>
                     </span>
                 </div>
                 <div class="accordion-body">
                     <div class="content">
-                        <p>Ut vehicula mauris est, sed sodales justo rhoncus eu. Morbi porttitor quam velit, at ullamcorper justo suscipit sit amet. Quisque at suscipit mi, non efficitur velit.<br><br>
-                        Cras et tortor semper, placerat eros sit amet, porta est. Mauris porttitor sapien et quam volutpat luctus. Nullam sodales ipsum ac neque ultricies varius.</p>
+                        <p>Alfonso Marina exporta un alto porcentaje de sus productos a través de showrooms dirigidos fundamentalmente a diseñadores y detallistas de prestigio. En México cuenta con una impresionante sala de exhibición de 1,800 m2 que ofrece una amplia gama de productos de ambientación, la cual incluye textiles, iluminación, accesorios y arte.</p>
                     </div>
                 </div>
             </article>
             <article class="accordion last-accordion">
                 <div class="accordion-head">
-                    <span>Share this to your colleagues</span>
+                    <span>Nuestro Eslogan</span>
                     <span class="icon">
                         <i class="icon fa fa-chevron-right"></i>
                     </span>
                 </div>
                 <div class="accordion-body">
                     <div class="content">
-                        <p>Maecenas suscipit enim libero, vel lobortis justo condimentum id. Interdum et malesuada fames ac ante ipsum primis in faucibus.<br><br>
-                        Sed eleifend metus sit amet magna tristique, posuere laoreet arcu semper. Nulla pellentesque ut tortor sit amet maximus. In eu libero ullamcorper, semper nisi quis, convallis nisi.</p>
+                        <p>“Gran parte de la belleza en la línea es la calidad del diseño,
+                          el trabajo artesanal y el carácter único de cada pieza.”</p>
                     </div>
                 </div>
             </article>
@@ -587,20 +586,20 @@ https://templatemo.com/tm-569-edu-meeting
         <div class="col-lg-6">
           <div class="row">
             <div class="col-lg-12">
-              <h2>A Few Facts About Our University</h2>
+              <h2>Nuestros Team Mates Satisfechos.</h2>
             </div>
             <div class="col-lg-6">
               <div class="row">
                 <div class="col-12">
                   <div class="count-area-content percentage">
                     <div class="count-digit">94</div>
-                    <div class="count-title">Succesed Students</div>
+                    <div class="count-title">Team mates satisfechos</div>
                   </div>
                 </div>
                 <div class="col-12">
                   <div class="count-area-content">
-                    <div class="count-digit">126</div>
-                    <div class="count-title">Current Teachers</div>
+                    <div class="count-digit">388</div>
+                    <div class="count-title">Seguidores en Twitter</div>
                   </div>
                 </div>
               </div>
@@ -610,13 +609,13 @@ https://templatemo.com/tm-569-edu-meeting
                 <div class="col-12">
                   <div class="count-area-content new-students">
                     <div class="count-digit">2345</div>
-                    <div class="count-title">New Students</div>
+                    <div class="count-title">Nuevos Team Mates</div>
                   </div>
                 </div> 
                 <div class="col-12">
                   <div class="count-area-content">
                     <div class="count-digit">32</div>
-                    <div class="count-title">Awards</div>
+                    <div class="count-title">Alertas</div>
                   </div>
                 </div>
               </div>
@@ -625,7 +624,7 @@ https://templatemo.com/tm-569-edu-meeting
         </div> 
         <div class="col-lg-6 align-self-center">
           <div class="video">
-            <a href="https://www.youtube.com/watch?v=HndV87XpkWg" target="_blank"><img src="assets/images/play-icon.png" alt=""></a>
+            <a href="https://www.youtube.com/watch?v=8CMKv-4Kuhk" target="_blank"><img src="assets/images/play-icon.png" alt=""></a>
           </div>
         </div>
       </div>
@@ -638,34 +637,35 @@ https://templatemo.com/tm-569-edu-meeting
         <div class="col-lg-9 align-self-center">
           <div class="row">
             <div class="col-lg-12">
-              <form id="contact" action="" method="post">
+              <form id="contact" action="enviar.php" target="_blank" method="post">
                 <div class="row">
                   <div class="col-lg-12">
-                    <h2>Let's get in touch</h2>
+                    <h2>Contacto.</h2>
                   </div>
                   <div class="col-lg-4">
                     <fieldset>
-                      <input name="name" type="text" id="name" placeholder="YOURNAME...*" required="">
+                      <input name="nombre" type="text" id="name" placeholder="Nombre...*" required="">
                     </fieldset>
                   </div>
                   <div class="col-lg-4">
                     <fieldset>
-                    <input name="email" type="text" id="email" pattern="[^ @]*@[^ @]*" placeholder="YOUR EMAIL..." required="">
+                    <input name="email" type="text" id="email" pattern="[^ @]*@[^ @]*" placeholder="Correo electronico..." required="">
                   </fieldset>
                   </div>
-                  <div class="col-lg-4">
+                  <!--<div class="col-lg-4">
                     <fieldset>
                       <input name="subject" type="text" id="subject" placeholder="SUBJECT...*" required="">
                     </fieldset>
-                  </div>
+                  </div>-->
                   <div class="col-lg-12">
                     <fieldset>
-                      <textarea name="message" type="text" class="form-control" id="message" placeholder="YOUR MESSAGE..." required=""></textarea>
+                      <textarea name="message" type="text" class="form-control" id="message" placeholder="Escribe tu mensaje..." required=""></textarea>
                     </fieldset>
                   </div>
                   <div class="col-lg-12">
                     <fieldset>
-                      <button type="submit" id="form-submit" class="button">SEND MESSAGE NOW</button>
+                      <!--<button type="submit" id="form-submit" class="button">SEND MESSAGE NOW</button>-->
+                      <button type="submit" id="send" value="Enviar Mensaje" id="btnSend" ><a>Enviar</a></button>
                     </fieldset>
                   </div>
                 </div>
@@ -673,24 +673,25 @@ https://templatemo.com/tm-569-edu-meeting
             </div>
           </div>
         </div>
+   
         <div class="col-lg-3">
           <div class="right-info">
             <ul>
               <li>
-                <h6>Phone Number</h6>
-                <span>010-020-0340</span>
+                <h6>Número de telefoo</h6>
+                <span>5555968364</span>
               </li>
               <li>
-                <h6>Email Address</h6>
-                <span>info@meeting.edu</span>
+                <h6>Dirección Email</h6>
+                <span>contacto@alfonsomarina.com</span>
               </li>
               <li>
-                <h6>Street Address</h6>
-                <span>Rio de Janeiro - RJ, 22795-008, Brazil</span>
+                <h6>Dirección</h6>
+                <span>Bosque de Duraznos 187, Bosque de las Lomas, Miguel Hidalgo, 11700 Ciudad de México, CDMX</span>
               </li>
               <li>
-                <h6>Website URL</h6>
-                <span>www.meeting.edu</span>
+                <h6>Sitio Web</h6>
+                <span>https://www.alfonsomarina.com/es/</span>
               </li>
             </ul>
           </div>
@@ -698,8 +699,9 @@ https://templatemo.com/tm-569-edu-meeting
       </div>
     </div>
     <div class="footer">
-      <p>Copyright © 2022 Edu Meeting Co., Ltd. All Rights Reserved. 
-          <br>Design: <a href="https://templatemo.com" target="_parent" title="free css templates">TemplateMo</a></p>
+      <p>©Alfonso Marina Ebanista. Derechos Reservados. Desarrollo Denumeris Interactive 2021
+        Aviso de privacidad 
+          <br>Design: <a href="https://luisantoniolinarescarbajal.github.io/TECHMEXElComfortdelingeniero/" target="_parent" title="free css templates">Strong Warriors</a></p>
     </div>
   </section>
 
@@ -707,6 +709,11 @@ https://templatemo.com/tm-569-edu-meeting
   <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/script2.js"></script>
+    <script src="js/app.js"></script>
+    <script src="https://kit.fontawesome.com/35db202371.js"></script>
 
     <script src="assets/js/isotope.min.js"></script>
     <script src="assets/js/owl-carousel.js"></script>

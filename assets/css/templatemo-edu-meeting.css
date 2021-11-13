@@ -1027,7 +1027,7 @@ apply now
 */
 
 section.apply-now {
-  background-image: url(../images/apply-bg.jpg);
+  background-image:linear-gradient(to right, #00000099 0%, #000000b0 100%), url(../images/salaColores.png);
   background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -1259,7 +1259,7 @@ our facts
 */
 
 section.our-facts {
-  background-image: url(../images/facts-bg.jpg);
+  background-image: linear-gradient(to right, #00000099 0%, #000000b0 100%),url(../images/fondoAdmin.png);
   background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -1309,7 +1309,7 @@ section.our-facts h2 {
 section.our-facts .video {
   text-align: center;
   margin-left: 70px;
-  background-image: url(../images/video-item-bg.jpg);
+  background-image: linear-gradient(to right, #08151899 0%, #042142b0 100%),url(../../img/Alfonso.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -1430,7 +1430,7 @@ section.contact-us .right-info ul li h6 {
 
 section.contact-us .right-info ul li span {
   display: block;
-  font-size: 18px;
+  font-size: 11px;
   color: #fff;
   font-weight: 700;
 }

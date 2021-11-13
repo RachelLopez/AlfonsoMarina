@@ -105,7 +105,7 @@ if (isset($_POST['submit'])) {
                         <div class="col-lg-7">
                             <div class="card shadow-lg border-0 rounded-lg mt-5">
                                 <div class="card-header">
-                                    <h3 class="text-center font-weight-light my-4">Registrase</h3>
+                                    <h3 class="text-center font-weight-light my-4">Registrarse.</h3>
                                 </div>
                                 <div class="card-body">
                                     <?php //control de errores
