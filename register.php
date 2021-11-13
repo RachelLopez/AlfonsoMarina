@@ -87,6 +87,8 @@ if (isset($_POST['submit'])) {
     <meta name="description" content="" />
     <meta name="author" content="" />
     <title>Register - México Cultural</title>
+    <!--icono de la pagina-->
+    <link rel="shortcut icon" href="img/logoAlfonsoMArina.jpg" type="image/x-icon">   
     <link href="css/styles.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

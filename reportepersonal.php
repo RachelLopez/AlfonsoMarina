@@ -8,7 +8,8 @@
     <meta name="description" content="">
     <meta name="author" content="Template Mo">
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-   
+    <!--icono de la pagina-->
+    <link rel="shortcut icon" href="img/logoAlfonsoMArina.jpg" type="image/x-icon">   
     <title>Reporte a personal</title>
     <link rel="icon" href="img/report.png" type="image/png">
     <!-- Bootstrap core CSS -->

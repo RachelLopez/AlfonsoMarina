@@ -11,6 +11,8 @@ if (!$_SESSION['ida']) {
   <head>
 
     <meta charset="utf-8">
+    <!--icono de la pagina-->
+    <link rel="shortcut icon" href="img/logoAlfonsoMArina.jpg" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="Template Mo">
