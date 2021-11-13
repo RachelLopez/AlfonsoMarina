@@ -150,7 +150,7 @@ if (isset($_POST['submit'])) {
                                                     <label for="inputPasswordConfirm" >Confirmar contraseña</label>-->
                                                     <input type="password" id="inputPasswordConfirm" class="form-control" name="repassword" required 
                                                     oninvalid="setCustomValidity('Campo obligatorio, debe coincidir con la nueva contraseña')">
-                                                
+                                                    <label for="inputPasswordConfirm">Confirmar contraseña</label>
                                                 </div>
                                             </div>
                                         </div>

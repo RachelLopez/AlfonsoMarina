@@ -184,13 +184,13 @@ https://templatemo.com/tm-569-edu-meeting
           <div class="categories">
             <h4>Categorias por departamento.</h4>
             <ul>
-              <li><a href="#">Recursos Humanos.</a></li><br>
-              <li><a href="#">Ventas.</a></li><br>
-              <li><a href="#">Finanzas.</a></li><br>
-              <li><a href="#">TI.</a></li><br>
+              <li><a href="departamentoRH.html">Recursos Humanos.</a></li><br>
+              <li><a href="departamentoVentas.html">Ventas.</a></li><br>
+              <li><a href="departamentoFinanzas.html">Finanzas.</a></li><br>
+              <li><a href="departamentoTI.html">TI.</a></li><br>
             </ul>
             <div class="main-button-red">
-              <a href="meetings.html">All Upcoming Meetings</a>
+              <a href="meetings.html">más sobre Alfonso Marina</a>
             </div>
           </div>
         </div>
@@ -203,7 +203,7 @@ https://templatemo.com/tm-569-edu-meeting
                     
                   </div>
                   <video autoplay muted loop id="bg-video">
-                      <source src="assets/images/course-video.mp4" type="video/mp4" />
+                      <source src="assets/images/bussines.mp4" type="video/mp4" />
                   </video>
                   <!--<a href="meeting-details.html"><img src="assets/images/meeting-01.jpg" alt="New Lecturer Meeting"></a>-->
                 </div>
