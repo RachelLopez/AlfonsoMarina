@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 14-11-2021 a las 16:51:13
+-- Tiempo de generación: 14-11-2021 a las 18:54:28
 -- Versión del servidor: 10.4.21-MariaDB
 -- Versión de PHP: 8.0.12
 
@@ -123,6 +123,109 @@ CREATE TABLE `reportesusuario` (
 -- --------------------------------------------------------
 
 --
+-- Estructura de tabla para la tabla `review_finanzas`
+--
+
+CREATE TABLE `review_finanzas` (
+  `review_idfinan` int(11) NOT NULL,
+  `user_name` varchar(200) NOT NULL,
+  `user_rating` int(1) NOT NULL,
+  `user_review` text NOT NULL,
+  `datetime` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Volcado de datos para la tabla `review_finanzas`
+--
+
+INSERT INTO `review_finanzas` (`review_idfinan`, `user_name`, `user_rating`, `user_review`, `datetime`) VALUES
+(6, 'Carmen', 2, 'muy mala experiencia', 1621935691),
+(7, 'Peter Parker', 5, 'Nice Product with Good Feature.', 1621939888),
+(8, 'Donna Hubber', 1, 'Worst Product, lost my money.', 1621940010),
+(9, 'Octavio', 5, 'good', 1636791273);
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `review_table`
+--
+
+CREATE TABLE `review_table` (
+  `review_id` int(11) NOT NULL,
+  `user_name` varchar(200) NOT NULL,
+  `user_rating` int(1) NOT NULL,
+  `user_review` text NOT NULL,
+  `datetime` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Volcado de datos para la tabla `review_table`
+--
+
+INSERT INTO `review_table` (`review_id`, `user_name`, `user_rating`, `user_review`, `datetime`) VALUES
+(6, 'John Smith', 4, 'Nice Product, Value for money', 1621935691),
+(7, 'Peter Parker', 5, 'Nice Product with Good Feature.', 1621939888),
+(8, 'Donna Hubber', 1, 'Worst Product, lost my money.', 1621940010),
+(9, 'Luis Antonio', 4, 'buen servicio', 1636785961),
+(10, 'admin', 3, 'as', 1636786447),
+(11, 'Octavio', 5, 'Esta bueno el servicio', 1636795745),
+(12, 'Rachel', 1, 'Muy mal servicio', 1636795787),
+(13, 'Betzy', 4, 'estoy contenta con el servicio .', 1636795835),
+(14, 'Fernanda', 4, 'Esta bien el servicio pero necesitamos mas agilidad de procesos.', 1636834441),
+(15, 'Bryan', 2, 'Pésimo servicio', 1636834485),
+(16, 'Rachel', 5, 'Muy buen servicio , excelente trabajo', 1636843757);
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `review_ti`
+--
+
+CREATE TABLE `review_ti` (
+  `review_idti` int(11) NOT NULL,
+  `user_name` varchar(200) NOT NULL,
+  `user_rating` int(1) NOT NULL,
+  `user_review` text NOT NULL,
+  `datetime` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Volcado de datos para la tabla `review_ti`
+--
+
+INSERT INTO `review_ti` (`review_idti`, `user_name`, `user_rating`, `user_review`, `datetime`) VALUES
+(6, 'John Smith', 4, 'Nice Product, Value for money', 1621935691),
+(7, 'Peter Parker', 5, 'Nice Product with Good Feature.', 1621939888),
+(8, 'Donna Hubber', 1, 'Worst Product, lost my money.', 1621940010),
+(9, 'usaurio', 2, 'hola', 1636791708);
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `review_ventas`
+--
+
+CREATE TABLE `review_ventas` (
+  `review_idv` int(11) NOT NULL,
+  `user_name` varchar(200) NOT NULL,
+  `user_rating` int(1) NOT NULL,
+  `user_review` text NOT NULL,
+  `datetime` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Volcado de datos para la tabla `review_ventas`
+--
+
+INSERT INTO `review_ventas` (`review_idv`, `user_name`, `user_rating`, `user_review`, `datetime`) VALUES
+(6, 'John Smith', 4, 'beunos muebles, Value for money', 1621935691),
+(7, 'Peter Parker', 5, 'Nice Product with Good Feature.', 1621939888),
+(8, 'Donna Hubber', 1, 'Worst Product, lost my money.', 1621940010),
+(9, 'boris', 5, 'miaw', 1636790761);
+
+-- --------------------------------------------------------
+
+--
 -- Estructura de tabla para la tabla `users`
 --
 
@@ -228,6 +331,30 @@ ALTER TABLE `reportesusuario`
   ADD KEY `id_departamento` (`id_departamento`);
 
 --
+-- Indices de la tabla `review_finanzas`
+--
+ALTER TABLE `review_finanzas`
+  ADD PRIMARY KEY (`review_idfinan`);
+
+--
+-- Indices de la tabla `review_table`
+--
+ALTER TABLE `review_table`
+  ADD PRIMARY KEY (`review_id`);
+
+--
+-- Indices de la tabla `review_ti`
+--
+ALTER TABLE `review_ti`
+  ADD PRIMARY KEY (`review_idti`);
+
+--
+-- Indices de la tabla `review_ventas`
+--
+ALTER TABLE `review_ventas`
+  ADD PRIMARY KEY (`review_idv`);
+
+--
 -- Indices de la tabla `users`
 --
 ALTER TABLE `users`
@@ -284,6 +411,30 @@ ALTER TABLE `reportesdep`
 --
 ALTER TABLE `reportesusuario`
   MODIFY `id_reportesusuario` int(20) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT de la tabla `review_finanzas`
+--
+ALTER TABLE `review_finanzas`
+  MODIFY `review_idfinan` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+
+--
+-- AUTO_INCREMENT de la tabla `review_table`
+--
+ALTER TABLE `review_table`
+  MODIFY `review_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
+
+--
+-- AUTO_INCREMENT de la tabla `review_ti`
+--
+ALTER TABLE `review_ti`
+  MODIFY `review_idti` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+
+--
+-- AUTO_INCREMENT de la tabla `review_ventas`
+--
+ALTER TABLE `review_ventas`
+  MODIFY `review_idv` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
 
 --
 -- AUTO_INCREMENT de la tabla `usuarios`
