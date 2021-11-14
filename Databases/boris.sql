@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 13-11-2021 a las 03:32:14
+-- Tiempo de generación: 14-11-2021 a las 16:51:13
 -- Versión del servidor: 10.4.21-MariaDB
 -- Versión de PHP: 8.0.12
 
@@ -44,7 +44,22 @@ CREATE TABLE `admin` (
 INSERT INTO `admin` (`ida`, `nombre`, `apellido`, `email`, `password`, `created_at`, `updated_at`) VALUES
 (1, 'wallace', 'groumit tothintut', 'wallaceQueso@gmail.com', '$2y$04$4310x/3fuRgTQv3QB.JasetODtXF6Sr2dqWg/5N0.Ii4weLO/RDfO', '2021-11-12 05:51:16', '2021-11-12 05:51:16'),
 (2, 'Victor', 'Carbajal', 'Victor@gmail.com', '$2y$04$WzmFHWiOSb2s3CXGhirGUOWfJKyXAkSEyG6u4GSClSeoPpOTIVRlW', '2021-11-12 05:59:06', '2021-11-12 05:59:06'),
-(3, 'Groumit', 'Wallace', 'Groumit@gmail.com', '$2y$04$vW0r0PR7nqXxxRG1wZ5lku50Ek4IvRVUkTB3Y9JbK5A1ZUFinD35a', '2021-11-12 06:24:21', '2021-11-12 06:24:21');
+(3, 'Groumit', 'Wallace', 'Groumit@gmail.com', '$2y$04$vW0r0PR7nqXxxRG1wZ5lku50Ek4IvRVUkTB3Y9JbK5A1ZUFinD35a', '2021-11-12 06:24:21', '2021-11-12 06:24:21'),
+(4, 'Antonio', 'Carbajal', 'luis2@gmail.com', '$2y$04$yT0RhyjDWYTEbR.7ePDBU.iLeIe5hPYIEbYZlcW3VpMjTKENvg.9K', '2021-11-14 12:40:14', '2021-11-14 12:40:14');
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `datos`
+--
+
+CREATE TABLE `datos` (
+  `idn` int(20) NOT NULL,
+  `mensaje` varchar(150) NOT NULL,
+  `estado` int(1) NOT NULL,
+  `autor` varchar(300) NOT NULL,
+  `fecha` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp()
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
 
@@ -108,6 +123,30 @@ CREATE TABLE `reportesusuario` (
 -- --------------------------------------------------------
 
 --
+-- Estructura de tabla para la tabla `users`
+--
+
+CREATE TABLE `users` (
+  `firstname` varchar(50) NOT NULL,
+  `middlename` varchar(50) NOT NULL,
+  `lastname` varchar(50) NOT NULL,
+  `birthdate` date NOT NULL,
+  `username` varchar(50) NOT NULL,
+  `password` varchar(50) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Volcado de datos para la tabla `users`
+--
+
+INSERT INTO `users` (`firstname`, `middlename`, `lastname`, `birthdate`, `username`, `password`) VALUES
+('Luis Antonioo', 'Linares', 'Carbajal', '1999-08-29', 'Boris@gmail.com', '12345'),
+('Mauricio', 'Sevilla', 'Britto', '1980-10-15', 'configuroweb', '1234abcd..'),
+('Pedro', 'Roberto', 'Usuario', '2017-07-19', 'rusuario', '1234abcd..');
+
+-- --------------------------------------------------------
+
+--
 -- Estructura de tabla para la tabla `usuarios`
 --
 
@@ -147,6 +186,12 @@ ALTER TABLE `admin`
   ADD PRIMARY KEY (`ida`);
 
 --
+-- Indices de la tabla `datos`
+--
+ALTER TABLE `datos`
+  ADD PRIMARY KEY (`idn`);
+
+--
 -- Indices de la tabla `departamento`
 --
 ALTER TABLE `departamento`
@@ -183,6 +228,12 @@ ALTER TABLE `reportesusuario`
   ADD KEY `id_departamento` (`id_departamento`);
 
 --
+-- Indices de la tabla `users`
+--
+ALTER TABLE `users`
+  ADD PRIMARY KEY (`username`);
+
+--
 -- Indices de la tabla `usuarios`
 --
 ALTER TABLE `usuarios`
@@ -196,7 +247,13 @@ ALTER TABLE `usuarios`
 -- AUTO_INCREMENT de la tabla `admin`
 --
 ALTER TABLE `admin`
-  MODIFY `ida` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `ida` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+
+--
+-- AUTO_INCREMENT de la tabla `datos`
+--
+ALTER TABLE `datos`
+  MODIFY `idn` int(20) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT de la tabla `departamento`
