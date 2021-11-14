@@ -55,10 +55,10 @@ https://templatemo.com/tm-569-edu-meeting
         <div class="col-lg-4 col-sm-4">
           <div class="right-icons">
             <ul>
-              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-              <li><a href="#"><i class="fa fa-behance"></i></a></li>
-              <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+              <li><a href="https://www.facebook.com/alfonsomarinahome/"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="https://twitter.com/alfonsomarinamx?t=8FnYwgJZRUhMdeYN6-sLCA&s=09"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="https://instagram.com/alfonsomarinahome?utm_medium=copy_link"><i class="fa fa-instagram"></i></a></li>
+              
             </ul>
           </div>
         </div>
@@ -81,23 +81,9 @@ https://templatemo.com/tm-569-edu-meeting
             <ul class="nav">
               <li><a href="dashboardadmin.php" class="active">Inicio</a></li>
               <li><a href="infousuario.php">Usuarios</a></li>
-              <li class="has-sub">
-                <a href="javascript:void(0)">Perfiles y Notificaciones</a>
-                <ul class="sub-menu">
-                  <li><a href="crearperfil.php">Crear</a></li>
-                  <li><a href="modificarperfil.php">Modificar</a></li>
-                  <li><a href="eliminarperfil.php">Eliminar</a></li>
-                  <li><a href="notificaciones.php">Notificaciones</a></li>
-                </ul>
-              </li>
+              <li><a href="crud.php">Perfiles y reportes</a></li>
+              <li><a href="noti.php">Notificaciones</a></li>
               <li><a href="agregardep.php">Agregar departamentos</a></li>
-              <li class="has-sub">
-                <a href="javascript:void(0)">Generar reportes</a>
-                <ul class="sub-menu">
-                  <li><a href="reportedep.php">Departamento</a></li>
-                  <li><a href="reportepersonal.php">Personal</a></li>
-                </ul>
-              </li>
               <li><a href="logout.php">Salir</a></li>
             </ul>
             <a class='menu-trigger'>
@@ -145,13 +131,13 @@ https://templatemo.com/tm-569-edu-meeting
                       <div class="price">
 
                       </div>
-                      <a href=""><img src="assets/images/meeting-01.jpg" alt=""></a>
+                      <a ><img src="assets/images/infouser.png" alt=""></a>
                     </div>
                     <div class="down-content">
                       <div class="date">
 
                       </div>
-                      <a href="">
+                      <a >
                         <h4>Información de usuarios</h4>
                       </a>
                       <p>Puedes revisar la información del <br>personal de los departamentos.</p>
@@ -164,13 +150,13 @@ https://templatemo.com/tm-569-edu-meeting
                       <div class="price">
 
                       </div>
-                      <a href=""><img src="assets/images/meeting-02.jpg" alt=""></a>
+                      <a><img src="assets/images/perfiles.jpeg" alt=""></a>
                     </div>
                     <div class="down-content">
                       <div class="date">
 
                       </div>
-                      <a href="">
+                      <a >
                         <h4>Perfiles</h4>
                       </a>
                       <p>Controla los perfiles de usuario.<br>Crea, modifica o elimina.</p>
@@ -183,13 +169,13 @@ https://templatemo.com/tm-569-edu-meeting
                       <div class="price">
 
                       </div>
-                      <a href=""><img src="assets/images/meeting-03.jpg" alt=""></a>
+                      <a><img src="assets/images/noti.jpg" alt=""></a>
                     </div>
                     <div class="down-content">
                       <div class="date">
 
                       </div>
-                      <a href="">
+                      <a >
                         <h4>Notificaciones</h4>
                       </a>
                       <p>Puedes revisar las notificaciones<br>pendientes existentes.</p>
@@ -202,13 +188,13 @@ https://templatemo.com/tm-569-edu-meeting
                       <div class="price">
 
                       </div>
-                      <a href=""><img src="assets/images/meeting-04.jpg" alt=""></a>
+                      <a ><img src="assets/images/dep.jpeg" alt=""></a>
                     </div>
                     <div class="down-content">
                       <div class="date">
 
                       </div>
-                      <a href="">
+                      <a >
                         <h4>Agregar departamentos</h4>
                       </a>
                       <p>¡Añade nuevos departamentos!</p>
@@ -221,13 +207,13 @@ https://templatemo.com/tm-569-edu-meeting
                       <div class="price">
 
                       </div>
-                      <a href=""><img src="assets/images/meeting-02.jpg" alt=""></a>
+                      <a ><img src="assets/images/reportes.jpg" alt=""></a>
                     </div>
                     <div class="down-content">
                       <div class="date">
 
                       </div>
-                      <a href="">
+                      <a >
                         <h4>Reportes</h4>
                       </a>
                       <p>Genera tus reportes para usuarios<br>y departamentos.</p>
@@ -240,8 +226,9 @@ https://templatemo.com/tm-569-edu-meeting
         </div>
       </div>
       <div class="footer">
-        <p>Copyright © 2022 Edu Meeting Co., Ltd. All Rights Reserved.
-          <br>Design: <a href="https://templatemo.com/page/1" target="_parent" title="website templates">TemplateMo</a>
+      <p>©Alfonso Marina Ebanista. Derechos Reservados. Desarrollo Denumeris Interactive 2021
+        Aviso de privacidad 
+          <br>Design: <a href="https://luisantoniolinarescarbajal.github.io/TECHMEXElComfortdelingeniero/" target="_parent" title="free css templates">Strong Warriors</a></p>
         </p>
       </div>
   </section>

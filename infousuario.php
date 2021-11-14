@@ -1,3 +1,9 @@
+<?php
+session_start();
+if (!$_SESSION['ida']) {
+  header('location:index.php');
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -41,16 +47,15 @@ https://templatemo.com/tm-569-edu-meeting
       <div class="row">
         <div class="col-lg-8 col-sm-8">
           <div class="left-content">
-            <p>Administrador <em>Alfonso Marina</em></p>
+            <p>Administrador <em><?php echo ucfirst($_SESSION['nombre']); ?></em></p>
           </div>
         </div>
         <div class="col-lg-4 col-sm-4">
           <div class="right-icons">
             <ul>
-              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-              <li><a href="#"><i class="fa fa-behance"></i></a></li>
-              <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+            <li><a href="https://www.facebook.com/alfonsomarinahome/"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="https://twitter.com/alfonsomarinamx?t=8FnYwgJZRUhMdeYN6-sLCA&s=09"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="https://instagram.com/alfonsomarinahome?utm_medium=copy_link"><i class="fa fa-instagram"></i></a></li>
             </ul>
           </div>
         </div>
@@ -71,26 +76,13 @@ https://templatemo.com/tm-569-edu-meeting
                       <!-- ***** Logo End ***** -->
                       <!-- ***** Menu Start ***** -->
                       <ul class="nav">
-                          <li><a href="dashboardadmin.php" >Inicio</a></li>
-                          <li><a href="inforusuario.php" class="active">Usuarios</a></li>
-                          <li class="has-sub">
-                              <a href="javascript:void(0)">Perfiles y notificaciones</a>
-                              <ul class="sub-menu">
-                                  <li><a href="crearperfil.php">Crear</a></li>
-                                  <li><a href="modificarperfil.php">Modificar</a></li>
-                                  <li><a href="eliminarperfil.php>">Eliminar</a></li>
-                                  <li><a href="notificaciones.php">Notificaciones</a></li>
-                              </ul>
-                          </li>
+                      <li><a href="dashboardadmin.php">Inicio</a></li>
+                          <li><a href="infousuario.php" class="active">Usuarios</a></li>
+                          <li><a href=crud.php">Perfiles y reportes</a></li>
+                          <li><a href="noti.php">Notificaciones</a></li>
                           <li><a href="agregardep.php">Agregar departamentos</a></li>
-                          <li class="has-sub">
-                              <a href="javascript:void(0)">Generar reportes</a>
-                              <ul class="sub-menu">
-                                  <li><a href="reportedep.php">Departamento</a></li>
-                                  <li><a href="reportepersonal.php">Personal</a></li>
-                              </ul>
-                          </li>
-                          </ul>        
+                          <li><a href="logout.php">Salir</a></li>
+                      </ul>        
                       <a class='menu-trigger'>
                           <span>Menu</span>
                       </a>
@@ -121,7 +113,7 @@ https://templatemo.com/tm-569-edu-meeting
             <div class="col-lg-12">
               <div class="filters">
                 <ul>
-                  <li data-filter="*"  class="active"><h6>Informacación de usuarios<h6></li>
+                  <li data-filter="*"  class="active"><h6>Información<h6></li>
                 </ul>
               </div>
             </div>
@@ -139,8 +131,8 @@ https://templatemo.com/tm-569-edu-meeting
                       <div class="date">
                         
                       </div>
-                      <a href=""><h4>Información de usuarios</h4></a>
-                      <p>Puedes revisar la información del <br>personal de los departamentos.</p>
+                      <a href=""><h4>Departamento de Finanzas</h4></a>
+                      <p>Revisa la información del departamento.</p>
                     </div>
                   </div>
                 </div>
@@ -156,8 +148,8 @@ https://templatemo.com/tm-569-edu-meeting
                       <div class="date">
                         
                       </div>
-                      <a href=""><h4>Perfiles</h4></a>
-                      <p>Controla los perfiles de usuario.<br>Crea, modifica o elimina.</p>
+                      <a href=""><h4>Departamento de Recursos Humanos</h4></a>
+                      <p>Revisa la información del departamento.</p>
                     </div>
                   </div>
                 </div>
@@ -173,8 +165,8 @@ https://templatemo.com/tm-569-edu-meeting
                       <div class="date">
                         
                       </div>
-                      <a href=""><h4>Notificaciones</h4></a>
-                      <p>Puedes revisar las notificaciones<br>pendientes existentes.</p>
+                      <a href=""><h4>Departamento de Ventas</h4></a>
+                      <p>Revisa la información del departamento.</p>
                     </div>
                   </div>
                 </div>
@@ -190,27 +182,13 @@ https://templatemo.com/tm-569-edu-meeting
                       <div class="date">
                         
                       </div>
-                      <a href=""><h4>Agregar departamentos</h4></a>
-                      <p>¡Añade nuevos departamentos!</p>
+                      <a href=""><h4>Departamento de Tecnologías<br>de la Información</h4></a>
+                      <p>Revisa la información del departamento.</p>
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-4 templatemo-item-col all att">
-                  <div class="meeting-item">
-                    <div class="thumb">
-                      <div class="price">
-                        
-                      </div>
-                      <a href=""><img src="assets/images/meeting-02.jpg" alt=""></a>
-                    </div>
-                    <div class="down-content">
-                      <div class="date">
-                        
-                      </div>
-                      <a href=""><h4>Reportes</h4></a>
-                      <p>Genera tus reportes para usuarios<br>y departamentos.</p>
-                    </div>
-                  </div>
+                    
+                  
                 </div>
             </div>
           </div>
@@ -218,8 +196,9 @@ https://templatemo.com/tm-569-edu-meeting
       </div>
     </div>
     <div class="footer">
-      <p>Copyright © 2022 Edu Meeting Co., Ltd. All Rights Reserved. 
-          <br>Design: <a href="https://templatemo.com/page/1" target="_parent" title="website templates">TemplateMo</a></p>
+    <p>©Alfonso Marina Ebanista. Derechos Reservados. Desarrollo Denumeris Interactive 2021
+        Aviso de privacidad 
+          <br>Design: <a href="https://luisantoniolinarescarbajal.github.io/TECHMEXElComfortdelingeniero/" target="_parent" title="free css templates">Strong Warriors</a></p>
     </div>
   </section>
 

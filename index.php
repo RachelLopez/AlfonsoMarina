@@ -45,7 +45,7 @@ if (isset($_POST['submit'])) {
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="" />
     <meta name="author" content="" />
-    <title>Login - México Cultural</title>
+    <title>Login - Alfonso Marina</title>
     <link href="css/styles.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -93,9 +93,9 @@ if (isset($_POST['submit'])) {
                                         </div>
                                     </form>
                                 </div>
-                                <div class="card-footer text-center py-3">
+                                <!--<div class="card-footer text-center py-3">
                                 <div class="small"><a href="register.php">Registrese!</a></div>
-                                </div>
+                                </div>-->
                             </div>
                         </div>
                     </div>
